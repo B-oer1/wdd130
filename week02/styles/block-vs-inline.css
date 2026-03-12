@@ -13,11 +13,13 @@ div {
     background-color: beige;
     margin: 1rem;
     padding: 1rem;
+    display: inline;
 }
 
 span {
     color: navy;
     background-color: lightblue;
+    display: block;
 }
 
 code {
