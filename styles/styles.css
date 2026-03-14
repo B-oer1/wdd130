@@ -35,10 +35,10 @@ main img {
 }
 
 aside {
-    width: 320px;
-    margin: 16px;
+    width: 20rem;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 16px;
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -51,6 +51,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid rgb(0 0 0 / 10%);
+    border-top: 1px solid #000;
     text-align: center;
 }
