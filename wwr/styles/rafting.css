@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: rgb(7, 128, 23);
-    --secondary-color: rgb(197, 138, 11);
+    --secondary-color: rgb(3, 83, 21);
     --accent1-color: rgb(17, 5, 129);
     --accent2-color: rgb(245, 201, 8);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -61,7 +61,7 @@ h1 {
     text-align: center;
     opacity: 0.9;
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 h2 {
@@ -78,7 +78,7 @@ h2 {
     text-align: center;
     opacity: 0.9;
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 .hero article img {
