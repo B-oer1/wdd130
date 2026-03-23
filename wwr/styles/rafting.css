@@ -159,15 +159,12 @@ section {
     height: auto;
 }
 
-.socialmedia {
-    justify-content: flex-end;
+footer {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    gap: 50px;
 }
 
 footer p {
-    align-items: flex-end;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
