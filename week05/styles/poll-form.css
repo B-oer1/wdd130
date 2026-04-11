@@ -59,6 +59,8 @@ textarea {
 label {
     text-align: left;
     padding-right: 1rem;
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
 }
 
 input,
@@ -89,6 +91,7 @@ button {
     font-size: 1.2rem;
     width: 200px;
     height: 50px;
+    display: block;
 }
 
 button:hover {
