@@ -198,7 +198,8 @@ main {
     font-size: 2rem;
 }
 
-label {
+label,
+#message {
     text-align: left;
     padding-right: 1rem;
     grid-template-columns: 3fr 1fr;
@@ -262,8 +263,7 @@ textarea {
     align-items: flex-end;
 }
 
-.column2,
-p {
+.column2 {
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
 }
