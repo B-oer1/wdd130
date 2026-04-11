@@ -22,7 +22,8 @@ header,
 main,
 section,
 footer,
-.middle {
+.middle,
+.service {
     width: 840px;
     margin: 0 auto;
 }
@@ -96,9 +97,10 @@ header {
 }
 
 header,
-footer {
+footer,
+.service {
     display: grid;
-    border: 1px solid #ccc;
+    border: 1px solid #584343;
     max-width: 1000px;
 }
 
@@ -124,9 +126,13 @@ footer {
     text-decoration: underline;
 }
 
-section {
+section,
+.service {
     margin: 1em auto;
     padding: 1em;
+}
+
+section {
     border: 1px solid rgb(0 0 0 / 10%);
     background-color: #d3e776;
 }
@@ -256,7 +262,8 @@ textarea {
     align-items: flex-end;
 }
 
-.column2 {
+.column2,
+p {
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
 }
