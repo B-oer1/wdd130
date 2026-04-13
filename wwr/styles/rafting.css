@@ -273,3 +273,17 @@ input[type="checkbox"] {
     height: 22px;
     vertical-align: text-bottom;
 }
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: center;
+}
