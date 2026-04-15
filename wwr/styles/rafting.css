@@ -37,7 +37,8 @@ footer,
 nav,
 .hero p,
 .up p,
-article {
+article,
+footer p {
     margin: 16px;
     padding: 8px;
 }
