@@ -198,6 +198,18 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
+}
+
+.mid > div {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid > div p {
+    text-align: left;
+    margin-top: 10px;
 }
 
 .fero img {
@@ -208,6 +220,7 @@ section {
 .mid img {
     width: 250px;
     height: auto;
+    display: block;
 }
 
 footer {
